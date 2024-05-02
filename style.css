@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    
+}
+.bgImageDiv{
+    /* border:2px solid red; */
+    height:100vh;
+    background-image: url(images/weedPlant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:50% 70%;
+    flex:1;
+}
+.signUpDiv{
+    /* background-color:rgb(253, 253, 253); */
+    background-color: rgba(231, 231, 231, 0.95);
+    background-position: 50% 0%;
+    height: 100vh;
+    flex:1.5;
+}
